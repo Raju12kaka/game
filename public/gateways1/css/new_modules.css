@@ -1,0 +1,705 @@
+ .featu div {
+     background: url(../img/featuredgame.png) left top no-repeat;
+     position: absolute;
+     top: -2px;
+     left: -2px;
+ }
+ /* METODOS CONTENEDOR */
+ 
+ #metodos_contenedor_metodos_de_pago {
+     margin: auto;
+     position: relative;
+     display: none;
+ }
+ 
+ #metodos_contenedor_metodos_de_pago.visible {
+     display: block;
+ }
+ 
+ #metodos_contenedor_metodos_de_pago.hidden {
+     display: none;
+ }
+ 
+ #metodos_contenedor_botones_ppal {
+     position: absolute;
+     top: -65px;
+     left: 0px;
+     width: 888px;
+ }
+ /* METODOS LISTADO */
+ 
+ #metolist_metodos_cuerpo {
+     overflow: hidden;
+     margin-top: -15px;
+ }
+ 
+ #metolist_seguridad_cuerpo,
+ #metolist_comparar_cuerpo {
+     margin-top: -5px;
+ }
+ /* CUADRO METODOS BOTON */
+ 
+ 
+ 
+ 
+ 
+ 
+ .cuadro_metodos_pago_solapa_p {
+     cursor: pointer;
+     z-index: 100;
+ }
+ 
+ .cuadro_metodos_pago_solapa_activa_p {
+     cursor: default;
+     z-index: 200;
+ }
+ 
+ #cuadro_metodos_pago_solapa_metodos_p {
+     left: 25px;
+ }
+ 
+ #cuadro_metodos_pago_solapa_comparar_p {
+     left: 266px;
+ }
+ 
+ #cuadro_metodos_pago_solapa_seguridad_p {
+     left: 598px;
+ }
+ 
+ #cuadro_metodos_pago_solapa_retiros_p {
+     left: 507px;
+ }
+ 
+ #cuadro_blanco_over_block_zindex {
+     position: absolute;
+     top: 65px;
+     left: 20px;
+     width: 685px;
+     height: 45px;
+     background-color: #ccc;
+     z-index: 150;
+ }
+ 
+ [data-id="109"] {
+  padding-top:0px !important;
+}
+ .cuadro_metodos_boton_seleccion_metodo:first-child {
+ margin-left:0px;
+ }
+ .selected_method_btn {
+ border-bottom:3px solid #4ea351 !important;
+     padding-top: 2px;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: left;
+  width: 100%;
+ }
+  /*.selected_method_btn:after{
+     border-top: 12px solid #d83f0f;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    bottom: 0px;
+    content: "";
+    position: absolute;
+    left: 29%;
+    width: 0;
+    height: 0;
+    top: 100%;
+  }*/
+  
+  .main-container {
+    margin: auto;
+    background: #ffffff;
+    border: 3px solid #a09f9f;
+    padding: 30px;
+    border-radius: 3px;
+    width: 77%;
+    margin-top: 25px;
+}
+  
+  
+  
+ 
+ /* -- estilos de contenedores de info mostrados al cliquear en metodos -- */
+ #idform {
+  padding-left: 0px;
+    width: 50% !important;
+    margin: auto !important;}
+ 
+  
+ 
+ 
+ .make_deposit_button {     
+     cursor: pointer;
+     font-weight: bold;
+     display: inline !important;
+     padding: 0px 0px 0px 0px;
+     width: 113px;
+     height: 36px;
+ }
+ 
+ .make_deposit_button {
+     
+     cursor: pointer;
+     font-weight: bold;
+     display: inline !important;
+     padding: 0px 0px 0px 0px;
+     width: 113px;
+     height: 36px;
+ }
+ /*	.elemens_listdetail_divs a{ */
+ 
+ #metolist_detalle_metodos .hide a {
+     color: #8FACF1;
+     font-weight: bold;
+ }
+ /* 	.elemens_listdetail_divs a:hover{ */
+ 
+ #metolist_detalle_metodos .hide a:hover {
+     color: #FF6600;
+ }
+ 
+ #metolist_detalle_metodos .hide {
+     background: none !important;
+     padding: 3px 10px !important;
+     color: #333333 !important;
+ }
+ 
+ #metolist_detalle_metodos p {
+     font-size: 1.1em;
+     text-align: justify;
+ }
+ 
+ .bkd-mdp-deposit {
+     border-color: #999 !important;
+     height: auto !important;
+ }
+ 
+ .bkd-mdp-deposit div.trader {
+     float: none !important;
+ }
+ 
+ .bkd-mdp-deposit div.tradiz {
+     float: none !important;
+     width: 362px !important;
+     background-color: #fefefe;
+     border: 1px solid #cecece;
+     padding: 20px;
+     margin-bottom: 15px;
+     overflow: auto;
+ }
+ 
+ .hide table {
+     width: 100%;
+ }
+ 
+ .elem_right_align_submit {
+     text-align: right;
+ }
+ 
+ .md-form.top .elem_right_align_submit {
+     margin: 0;
+     margin-top: 25px;
+ }
+ 
+ .md-form.top table .elem_right_align_submit input.make_deposit_button {
+     margin-top: 25px;
+ }
+ 
+ .md-form .elem_right_align_submit {
+     text-align: center!important
+ }
+ 
+ .content_trad_outdep {
+     margin-left: 15px;
+     margin-right: 15px;
+     margin-top: 5px;
+ }
+ 
+ .tradiz_outdep {
+     border-top: 1px dotted #999999;
+     padding-top: 3px;
+     font-weight: bold;
+     margin-top: 5px;
+ }
+ 
+ .trader_outdep {
+     text-align: right;
+ }
+ 
+ .ico_preff_meth {
+     position: absolute;
+     right: 80px;
+     top: 16px;
+     width: 58px;
+ }
+ /*--------------- PANTALLA COMPARAR ----------------*/
+ 
+ #cuadro_metodos_contenedor_comparar {}
+ 
+ #metolist_comparar_cuerpo p,
+ #metolist_metodos_comparar p {
+     color: #555555;
+     margin: 0 25px;
+     padding: 25px 0;
+ }
+ 
+ .tablapay {
+     width: 780px;
+     margin: auto;
+     /*	margin-top:25px; */
+     
+     border: 1px solid #BFD3FF;
+     /*font-family: Arial, Helvetica, sans-serif;*/
+         font-family: 'Montserrat', sans-serif !important;
+     font-size: .8em;
+ }
+ 
+ .tablapay thead tr td {
+     font-weight: bold;
+     background-color: #C2D1EF;
+     padding: 3px;
+     color: #0D3A6F;
+     font-size: 13px;
+ }
+ 
+ .tablapay tbody tr td {
+     padding: 3px;
+     color: #303030;
+     font-size: 12px;
+ }
+ /* ------------------------------- */
+ 
+ .p-upper-description-methods a {
+     color: #96c0ff !important;
+     text-decoration: none;
+     font-size: 1em;
+     font-weight: normal!important;
+ }
+ 
+ .p-upper-description-methods a:hover {
+     color: #dc6f37 !important;
+     text-decoration: underline;
+ }
+ 
+ .p-upper-description-methods a:link {
+     font-weight: normal!important;
+ }
+ 
+ .logos_metodos_small {
+     margin-bottom: 20px;
+     display: table;
+ }
+ /* general */
+ 
+ .no-show {
+     display: none!important;
+ }
+ /*----------------------------------
+	Estilos print
+-----------------------------------*/
+ 
+ @media print {
+     * {
+         background: transparent !important;
+         color: #444 !important;
+         text-shadow: none;
+     }
+     a,
+     a:visited {
+         color: #444 !important;
+         text-decoration: underline;
+     }
+     a:after {
+         content: " (" attr(href) ")";
+     }
+     abbr:after {
+         content: " (" attr(title) ")";
+     }
+     .ir a:after {
+         content: "";
+     }
+     /* Don't show links for images */
+     
+     pre,
+     blockquote {
+         border: 1px solid #999;
+         page-break-inside: avoid;
+     }
+     img {
+         page-break-inside: avoid;
+     }
+     
+     p,
+     h2,
+     h3 {
+         orphans: 3;
+         widows: 3;
+     }
+     h2,
+     h3 {
+         page-break-after: avoid;
+     }
+ }
+ 
+ .noactive h2 {
+      /*background: url(../img/bg-section-title-metodos.png) top left no-repeat;*/
+     cursor: pointer;
+ }
+ 
+ .active h2 {
+     /*background: url(../img/bg-section-title-metodos.png) bottom left no-repeat;*/
+     cursor: pointer;
+ }
+ 
+ .noactive h2:hover {
+    /* background: #000 url(/../img/bg-section-title-metodos.png) top left no-repeat;*/
+     border-radius: 6px 0 0 6px;
+     width:90%;
+ }
+ 
+ .active h2:hover {
+    /* background: #000 url(../img/bg-section-title-metodos.png) bottom left no-repeat;*/
+     border-radius: 6px 0 0 6px;
+     width:90%;
+ }
+ 
+ .tabpay {
+     padding: 0px;
+     border: 0;
+     height: 25px;
+     background: none;
+     margin: 0;
+ }
+ 
+ .tabpay.red {
+     padding: 0px;
+     border: 0;
+     height: 25px;
+     background: none;
+     margin: 0;
+ }
+ 
+ .tabpay a {
+     display: block;
+     height: 100%;
+     background: #282828 ;
+
+     
+     padding: 5px 13px;
+    
+     font-size: 15px;
+    /*  line-height: 13px;
+     height: 25px; */
+     /* font-weight: bold; */
+     color: #fff;
+     display: block;
+     white-space: nowrap;
+     text-shadow: none;
+ }
+ 
+ .tabpay.red a {
+     display: block;
+     height: 100%;
+    
+     background: yellow;
+     height: 25px;
+     
+     font-size: 15px;
+     /* font-weight: bold; */
+     color: #000;
+     padding: 10px 0 0 0;
+     font-size: 14px;
+     line-height: 13px;
+ }
+ 
+ .tabpay a:hover {
+     background: #000;
+     color: #fff;
+     text-shadow: 0px -1px 0px #333;
+     text-decoration: none;
+     display: block;
+ }
+ 
+ .bd .selected_method_btn:hover,
+ .bd .unselected_method_btn:hover {
+     background: #ffc60c;
+ }
+ 
+ .contenido #metolist_detalle_metodos {
+     padding: 10px 2px;
+ }
+ 
+ h3 {
+     font-size: 20px;
+     border-bottom: 1px dotted #ccc;
+     width: 100%;
+     display: block;
+     line-height: 18px;
+ }
+ 
+ h4 {
+     font-size: 16px;
+     color: #900;
+ }
+ 
+ .cuadro_metodos_boton_seleccion_metodo img {
+        border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 50%;
+    position: relative;
+    vertical-align: middle;
+ }
+ 
+ .cuadro_metodos_boton_seleccion_metodo:first-child img {
+ 	max-width:55%;
+ }
+ 
+ .cuadro_metodos_boton_seleccion_metodo .txt {
+     text-shadow: 0px -1px 0px #fff;
+    padding: 22px 0 0 100px; 
+ }
+ 
+ .deposit_leftdiv {
+      width:32%; margin-left:8px;display: inline-block;vertical-align: top; margin-top:32px;
+      }
+     
+     #metodos_contenedor_metodos_de_pago{
+     width:65%;height:auto;border:0;display: inline-block !important;
+     }
+ 
+ 
+  #metolist_metodos_cuerpo{margin-top:14px;}  
+   .cuadro_metodos_boton_seleccion_metodo  {
+      border-bottom: 1px solid #d7d7d7;
+    background: #e2e2e2;
+    border-radius: 0px;
+    height:49px;
+    border-right: 1px solid #d7d7d7;
+    cursor: pointer;
+    }    
+     .more.ui-state-active{background: #cecece; }
+      .ui-accordion-content-active .selected_method_btn{border-left: 1px solid gray ! important;    border-right: 1px solid white ! important;    border-bottom: 0.5px solid gray;    border-top: 0.5px solid gray;}
+     #metolist_detalle_metodos{    border: 1px solid gray;}
+     
+     .more{
+           background: #f6f6f6;
+    margin: 0px;
+    padding: 0px 0px;
+    border: 1px solid #d7d7d7;
+    width: 95.5%;
+    padding-left: 10px;
+     }
+ .cuadro_metodos_boton_seleccion_metodo img {
+    width:40% !important;
+    max-width:100% !important;
+    
+}
+ 
+[data-id="112"] img {
+	width:95% !important;
+	padding-top:5px;
+	border-radius: 0px !important;
+}
+	[data-id="116"] img {
+    width: 78% !important;
+    padding-top: 5px;
+    border-radius: 0px !important;
+}
+	
+ 
+@media screen and (min-width:300px) and (max-width:600px) { 
+ 	
+ 	.cuadro_metodos_boton_seleccion_metodo {    
+    width: 18% !important;
+    display: inline-block;
+    vertical-align:top;
+    margin-bottom:5px;
+}
+.cuadro_metodos_boton_seleccion_metodo{
+	padding: 0px;
+	
+}
+[data-id="112"] img {	
+	padding-top:2px !important;	
+	height:46px;
+}
+
+.cuadro_metodos_boton_seleccion_metodo img {
+    width: 95% !important;
+    max-width: 100% !important;
+    padding-top: 7px;
+}
+.selected_method_btn::after{
+	border-top: 0px none;
+}
+.selected_method_btn {
+    border-bottom: 5px solid #4ea351 !important;
+    
+    }
+    .cuadro_metodos_boton_seleccion_metodo:first-child img {
+    	padding-top:8px;
+    }
+    .unselected_method_btn {
+    background: #dddddddd;
+    border-bottom: 5px solid #aba8a8;
+}
+.deposit_leftdiv {
+    width: 100%;
+    margin-top: 2px;
+    
+    }
+   
+   
+    #metodos_contenedor_metodos_de_pago {
+    width: 100%;
+    
+    }
+   
+   
+   [data-id="111"] img {
+   	width:53% !important;
+   	
+   }
+   
+   
+    #metolist_metodos_cuerpo {
+    margin-top: -7px !important;
+}
+ 	
+ }
+ 
+ 
+ @media screen and (min-width:601px) and (max-width:760px) { 
+ 
+.cuadro_metodos_boton_seleccion_metodo {    
+    width: 30.5% !important;
+    display: inline-block;
+    vertical-align:top;
+}
+.cuadro_metodos_boton_seleccion_metodo{
+	padding: 0px;
+}
+
+
+.cuadro_metodos_boton_seleccion_metodo img {
+    width: 60% !important;
+    max-width: 100% !important;
+    padding-top: 4px;
+}
+.selected_method_btn::after{
+	border-top: 0px none;
+}
+.selected_method_btn {
+    border-bottom: 5px solid #4ea351 !important;
+    
+    }
+    .cuadro_metodos_boton_seleccion_metodo:first-child img {
+    	padding-top:8px;
+    }
+    .unselected_method_btn {
+    background: #dddddddd;
+    border-bottom: 5px solid #aba8a8;
+}
+.deposit_leftdiv {
+    width: 100%;
+    margin-top: 2px;
+    
+    }
+   
+   
+    #metodos_contenedor_metodos_de_pago {
+    width: 100%;
+    
+    }
+   
+    #metolist_metodos_cuerpo {
+    margin-top: -7px !important;
+}
+ 
+
+}
+ 
+
+ 
+@media screen and (min-device-width:765px) and (max-device-width:1024px) { 
+
+.deposit_leftdiv {
+    width: 100%;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.selected_method_btn {
+    border-bottom: 3px solid #4ea351 !important;
+    padding-top: 0px;
+    position: relative;
+    text-align: left;}	
+	
+#metodos_contenedor_metodos_de_pago {
+    width:100%;
+  
+}	
+
+.cuadro_metodos_boton_seleccion_metodo {
+    border-bottom: 4px solid #e2e2e2;
+    background: #e2e2e2;
+    border-radius: 0px;
+    border-right: 1px solid #d7d7d7;
+        width: 18% !important;
+    }
+	
+.cuadro_metodos_boton_seleccion_metodo img {
+    width: 100% !important;
+    max-width:100% !important;
+    padding-top: 6px;
+}
+.selected_method_btn::after{
+border-top:none;	
+	
+}
+.selected_method_btn {
+    border-bottom:4px solid #4ea351 !important;
+    padding-top: 0px;
+    position: relative;
+    text-align: left;
+    margin:0px;
+}
+ 
+	
+	
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	
+.cuadro_metodos_boton_seleccion_metodo {
+    display: inline-block;
+    width:15%;
+    height: 70px;
+    padding-top:0px;
+}
+.cuadro_metodos_boton_seleccion_metodo img {
+    width:87% !important;
+    max-width:100% !important;
+    padding-top: 6px;
+}
+
+
+.selected_method_btn {
+    border-bottom:4px solid #4ea351 !important;
+    padding-top: 0px;
+    position: relative;
+    text-align: left;
+    margin:0px;
+}
+ 
+ 

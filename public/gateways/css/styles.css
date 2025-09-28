@@ -1,0 +1,286 @@
+/**********************/
+/* GENERIC BODY STYLE */
+/**********************/
+BODY{font-family: 'Montserrat', sans-serif !important;text-align: left;font-size: 10px;margin: 0px;cursor: default;}
+FORM{margin: 0px;border: 0px;padding: 0px;}
+INPUT{cursor:pointer;border:1px solid #99999b;background-color:#fff;font-size:10px;text-align:left;padding:10px;vertical-align:text-bottom;}
+INPUT[type=radio]{border: 0px solid #c0c0c0;}
+.mastercard_freechip {display: block;text-align: center;margin: auto;float: none;width: 100%;}
+SELECT{cursor:pointer;border:1px solid #c0c0c0;background-color:#fff;font-size:14px;text-align:left;padding:0;margin:-5px;margin-left:1px;margin-top:-1px;margin-bottom:-1px;}
+TEXTAREA{cursor: pointer;}
+.indent1{padding-left: 0px;}
+.indent2{padding-left: 30px;}
+.visa_cvv, .visa_expiry, .visa_amount { padding-bottom:5px; font-weight:600; }
+.visa_amount { padding-left:0px; }
+.form_main_div { width:100%; box-sizing:border-box; margin-top:6px;color:#ccc;}
+.col-two {float: left;width: 48%;margin-right: 2%;margin-bottom: 2%;}
+.indent2.cvv_div { width:15%; }
+.indent2.cvv_div #idcvv { width:100%; }
+.indent2.expiry_div { width:50%; }
+.indent2.amount_div {    width: 27%;margin-right: 0; }
+.indent2.expiry_div #idmonth {width: calc(50% - 1px);margin-left: -3px;height: 38px;padding: 5px;font-size: 15px;background: #0d0d20;color:#fff;}
+.indent2.expiry_div #idyear {width: calc(50% - 1px);height:38px;margin-left: 8px;padding: 5px;font-size: 15px;background: #0d0d20; color:#fff;}
+.payments-div lable {color: #fff;font-size: 15px;font-weight: 600;}
+.payments-div ul {
+    padding: 0;
+    margin: 6px 0 12px;
+}
+.payments-div ul li {
+    display: inline-block;
+    border: 1px solid #ff992e;
+    padding: 8px 21px;
+    margin-right: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 7%;
+    max-width: 100%;
+	color: #ff992e;
+	text-align: center;
+}
+span#termsdata {
+    color: #ff992e;
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.payments-div ul li:hover {
+    color: #fff;
+    background: #ff992e;
+}
+#availbonusCode {
+    border-radius: 6px;
+    background: #0d0d1f;
+    color: #fff;
+    padding: 9px 4px;
+	height: 38px;
+	font-size: 14px;
+}
+#idbillingdetails {
+    color: #fff;
+}
+a#flip {
+    color: #ff992e;
+} 
+#available_coupons label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#idbtnSubmit{
+	background: #ff992e !important;
+	border: 1px solid ff992e;
+	width: 120px !important;
+}
+#idbtnSubmit:hover {
+    background: #116f92 !important;
+}
+#idbtnCancel {
+    border: 1px solid #c0c0c0;
+	width: 120px !important;
+}
+.indent2 {padding-left: 0px;margin:0 6px 6px;margin-left: 0px;font-size: 14px;display: inline-block;margin-right:2%;vertical-align:top;color:#fff;font-weight: bold;}
+.messi-modal{opacity:0!important;}
+.indent2 .visa_select { box-sizing:border-box; }
+.indent2.amount_div #idorderAmount {border-radius:0;vertical-align: middle;width: 76%;display: inline-block;border-radius: 5px;}
+#panel table { width:100%; }
+#panel table tr td { width:49%; display:inline-block; box-sizing:border-box; }
+#panel table tr td input, #panel table tr td select { width:100%; box-sizing:border-box; border-radius:3px; }
+#panel .add_main_div { width:100%; display:block; box-sizing:border-box; }
+#panel .add_1 { width:49%; display:inline-block; box-sizing:border-box; margin:0px; }
+#panel .add_1.update_cancel { width:100%;display:block; }
+#panel .add_1 b  {font-weight: 600 !important;color: #fff;font-size:14px;padding-bottom: 5px;display: block;}
+#panel .add_1 input, #panel .add_1 select {  width:100%; box-sizing:border-box; border-radius:5px; margin-bottom:6px; font-size:13px; padding:8px 10px !important; background: #0d0d1f;color: #fff;height: 40px;}
+.dollor_symbol{padding:0;font-size:18px;position:relative;padding-right:4px;vertical-align:middle;display: inline-block;line-height:39px;}
+/**********************/
+/* GENERIC BODY STYLE */
+/**********************/
+
+/***********************/
+/* GENERIC LINK STYLES */
+/***********************/
+A IMG{border: none;}
+A{text-decoration: underline;color: #616161;}
+A:VISITED{text-decoration: underline;color: #616161;}
+A:HOVER{text-decoration: underline;color: #616161;}
+A:ACTIVE{text-decoration: underline;color: #616161;}
+/***********************/
+/* GENERIC LINK STYLES */
+/***********************/
+/*********************/
+/* SPECIFIC SECTIONS */
+/*********************/
+.error{background-position:7px 50%;background-repeat:no-repeat;padding:5px;padding-left:25px;background-color:#fbffb5;border:1px solid #ffe400;margin-bottom: 2px;}
+.tip{padding:5px;border:1px solid #818181;font-size:10px;background-repeat:repeat-x;background-color:#fff;border-top:5px solid #818181;}
+.window{padding: 5px;background-color: #fafafa;border: 1px solid #f1f1f1;width: 100%;}
+.boxtext {font-size: 10px;}
+#idform {width: 100%;margin: auto;background: #ffffff;padding:12px !important;border-radius: 3px;box-sizing: border-box;}
+.barGray{background-color: #818181;color: #f1f1f1;font-size: 10px;padding-left: 5px;height: 20px;vertical-align: middle;}
+.barGray A{color: #ffffff;text-decoration: none;}
+.barGray A:VISITED{color: #ffffff;text-decoration: none;}
+.barGray A:HOVER{color: #ffffff;text-decoration: underline;}
+.barGray A:ACTIVE{color: #ffffff;text-decoration: none;}
+.barWhite{background-color: #ffffff;}
+.barBlack{background-color: #000000;color: #ffffff;font-size: 10px;padding-left: 5px;height: 20px;}
+.barBlack A{color: #ffffff;text-decoration: none;}
+.barBlack A:VISITED{color: #ffffff;text-decoration: none;}
+.barBlack A:HOVER{color: #ffffff;text-decoration: underline;}
+.barBlack A:ACTIVE{color: #ffffff;text-decoration: none;}
+.merchantBar{background-repeat: no-repeat;background-color:#2C292F;color:#ffffff;font-size:10px;text-align:right;height:20px;padding:5px;}
+.merchantBar A{color: #ffffff;text-decoration: none;}
+.merchantBar A:HOVER{color: #ffffff;text-decoration: underline;}
+.crumb{color: Silver;}
+.selectedcrumb{color: White;}
+.footer{text-align: center;font-size: 10px;}
+/* A required item within the forms. */
+.required {background-color: transparent;color: #fff;margin-bottom: 6px;border: 1px solid #fff;border-radius: 5px;}
+/* A required item within the forms. */
+.Disabled {background-color: #E0D6D6;color: #000000;}
+.cardIcon /* front page card icon padding */{padding: 1px;}
+/*********************/
+/* SPECIFIC SECTIONS */
+/*********************/
+/*******************/
+/* CONTENT SECTION */
+/*******************/
+.content{padding-top: 5px;padding-right: 5px;padding-left: 5px;}
+.content .title1{font-size: 18px;color: #000000;width:100%;}
+.content .title2{font-size: 18px;}
+.content .formTable TD{padding: 1px;}
+.rowColoured{font-size:13px;color: #fff;}
+#asterisc{color:#E75400;}
+.rowColouredBox{border-left:1px solid #C0C0C0;border-right:1px solid #C0C0C0;border-top:1px solid #C0C0C0;border-bottom:1px solid #C0C0C0;background-color:#fff;font-size: 10px;}
+.content .smallText{font-size: 9px;padding-top: 0px;padding-bottom: 0px;}
+.content .mediumText{font-size: 12px;padding-top: 0px;padding-bottom: 0px;}
+.content .errorText{padding-top: 2px;padding-bottom: 0px;font-size: 10px;color: #C60300;}
+/*******************/
+/* CONTENT SECTION */
+/*******************/
+/*******************************/
+/* GENERIC FORM ELEMENTS STYLE */
+/*******************************/
+.Checkbox INPUT{border: none;vertical-align: middle;}
+.checkboxWithText LABEL{padding-left: 5px;}
+.btnStd{border:1px solid #c0c0c0;background-color:#f5f5f5;background-image:url(../img/bg_btn.jpg);font-weight:bold;font-size:10px;text-align:center;padding:0;padding-bottom:4px;padding-top:4px;margin:0;}
+/*******************************/
+/* GENERIC FORM ELEMENTS STYLE */
+/*******************************/
+/* Style for the main div containing the controls in the masterpage. */
+.mainDiv{padding:0 30px;}
+/* Style for a full width table with no borders. */
+.Table100{width:100%;border:0px;}
+/* Style for a TD with width 100%. */
+.TD100{width:100%;}
+/* Style for the security padlock display. */
+.Security{border-left: 1px solid #ffffff;padding-left: 4px;padding-right: 4px;text-align:center;}
+/* Style for the language selection. */
+.LanguageSelection{padding-right: 5px;}
+/* Style for the div containing the table for the popup information windows. */
+.PopUpInfoWindow{position: absolute;top: 65px;left: 10px;width: 80%;padding: 10px;padding-top: 2px;padding-bottom: 2px;display: none;}    
+/* Style for the table containing the popup information windows. */
+.PopUpWindowTable{padding: 5px;background-color: #fafafa;border: 3px solid #c0c0c0;}
+/* Style for the div containing the popup information windows. */
+.PopUpDivStyle{overflow: auto;width:100%;height: 200px}
+/* Style for the Close button TD within the popup information window. */
+.PopUpInfoWindow .CloseButtonTD{padding-left: 5px;vertical-align: top;}
+/* Style for the Close button image within the popup information window. */
+.PopUpInfoWindow .ImgCloseButton{cursor: pointer;vertical-align: top}
+ /* Style width full width and height in percentages. */
+.WidthHeight100{width: 100%;height: 100%;}
+/* Style for images that are displayed within the popup information window. */
+.PopUpInfoWindowImgTD{padding: 5px;text-align: center;border: 1px solid #c0c0c0;}
+/* Styles for display payments iframe in casino web site start.  */
+#metolist_metodos_cuerpo {margin-top: -15px;overflow: hidden;}
+.cuadro_metodos_boton_seleccion_metodo {color: #333333;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 60px;left: 0;padding-top: 2px;padding-bottom: 15px;position: relative;text-align: left;width: 100%;}
+.selected_method_btn{background:#f1f0d3 none repeat scroll 0 0;border-bottom:5px solid #bbb;border-right:1px solid #d7d7d7;cursor:default;left:0;margin:0 0 1px;padding:0;width:100%;}
+.cuadro_metodos_boton_seleccion_metodo img {border-radius: 10px;}
+.contenido #metolist_detalle_metodos {padding: 10px 7px;}
+.unselected_method_btn{background: #ddd none repeat scroll 0 0;border-bottom: 5px solid #bbb;}
+
+.loader-icon {position: fixed;width: 100%;height: 100%;left: 0;top:-20%;z-index: 9999;background: rgba(0,0,0,0.5);}
+.spinner-border{margin:auto;border: 8px solid #f3f3f3;border-top: 8px solid #3498db;border-radius: 50%;width:2rem;height:2rem;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;display:block;position:absolute;left:0;right:0;top:0;bottom:0}
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+} 
+
+
+
+
+@media (max-width:767px){
+
+.payments-div ul li {
+    width: 28%;
+    margin-bottom: 14px;
+}
+.payments-div ul {
+    margin: 6px 0 0;
+}
+#availbonusCode{
+	margin-top: 4px;
+}
+
+}
+
+
+@media (max-width:480px){
+	
+	.formTable tbody tr:nth-child(11) td{    text-align: left;}
+	.mastercard_freechip img { width:100%; }
+	#idform {width: 100%;margin: auto;background: #ffffff;padding:0px !important;border-radius: 3px;box-sizing: border-box;}
+	.mainDiv{padding:0;}
+	.indent2.expiry_div {width: 65%;display: inline-block;box-sizing: border-box;margin-right: 0px;}
+	.indent2.amount_div {width: 100%;display: inline-block;}
+	.indent2.cvv_div {width: 30%;display: inline-block;}
+	.indent2.amount_div #idorderAmount {vertical-align: middle;width: 76px;display: inline-block;}
+	.visa_amount {padding-left: 0px;}	
+}
+@media only screen and (min-device-width:320px) and (max-device-width:650px) and (-webkit-min-device-pixel-ratio: 2) {
+	.cuadro_metodos_boton_seleccion_metodo {width: 25% !important;height: 60px;display: inline-block;text-align: left;font-family: Arial, Helvetica, sans-serif;font-weight: bold;font-size: 13px;padding-top: 10px;left: 0px;color: #333333;position: relative;background: none;border: none;padding: 0px 0px 0px 6px;border-radius: 0px !important;}
+	.secmet-title{display: none;width:100%; width:100%;margin:0;padding:0;}
+	.hd{ width:100%;margin:0;padding:0;left:0px;}
+	.more{margin:3px 0;padding-right:4px;padding:0;width:100%;background:#0c0c0c;border-radius:6px 0 0 6px;border-bottom: 1px solid #bbb;}
+	.more h2{margin:0;padding:5px 0 5px 30px;width:100%; color:#FFF;height:20px;line-height:20px;font-size:14px;}
+	.bd div{display:inline;width:25%;  padding:0;cursor: pointer; border-radius: 0px; background-color: #333;}
+	.bd img{float:left;padding:5px;}
+	.acordion{margin-left:0px; float:left; width:100% ; margin-top:28px; margin-bottom: 25px;}
+	.deposit-btn{width: 25% !important; float: right;}
+	.txt{width: 25% !important;padding: 22px 14px !important;float: left;color: #fff;text-shadow: none !important;}
+	img{width: 83px;}
+	img.quick_dep {width: 80px !important;height: 59px;border-radius: 0px !important;}
+	.acc_str {width: 100%;float: left;margin-top: 15px;margin-bottom: 15px;}
+	.ui-accordion-icons .ui-accordion-header a{padding-left: 0px;    font-size: 15px;padding: 8px;}
+	.ui-icon{display: none}
+	.bd .selected_method_btn:hover, .bd .unselected_method_btn:hover {background: #333;}
+	.selected_method_btn::after {content: '';position: absolute;left: 36%;top:58%;width: 0;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-top: 12px solid #c90038;clear: both;}
+	
+}
+@media only screen and (min-device-width:651px) and (max-device-width:1025px) and (-webkit-min-device-pixel-ratio: 2) {
+	.mastercard_freechip img { width:96%; }
+}
+@media screen and (max-width: 360px) {
+	#idconvertedOrderAmount{margin-left: -4px !important;width: 132px !important;}
+	 #idorderAmount{margin-right: 65px !important;}
+	.visa_cvv, .visa_expiry, .visa_amount {padding-bottom: 5px;font-weight: 600;}
+	.indent2.expiry_div {width: 65%;display: inline-block;box-sizing: border-box;margin-right: 0px;}
+	.indent2.cvv_div {width: 30%;display: inline-block;}
+	.indent2.amount_div {width: 100%;display: inline-block;}
+	.indent2.amount_div #idorderAmount {vertical-align: middle;width:76px;display: inline-block;}
+	.visa_amount { padding-left:0px; } 
+	.messi-box{width:200px!important;}
+	#panel table tr td {width: 100%;display: inline-block;box-sizing: border-box;}
+	#panel .add_1 { width:100%; display:block; box-sizing:border-box; margin:0px; }
+	.mainDiv{padding:0;}
+}
+@media screen and (max-width: 320px) {
+#idorderAmount{margin-right:65px !important;}
+}
+@media screen and (min-width: 361px) and (max-width: 414px) {
+#idorderAmount{margin-right: 127px !important}
+b.amount{display: block !important;    margin-bottom: 16px;}
+#idconvertedOrderAmount{width: 132px !important;}
+}
+@media screen and (max-width:300px){
+	span.note_text{font-size:12px!important;line-height:normal!important;}
+}
+
